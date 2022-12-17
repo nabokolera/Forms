@@ -9,19 +9,17 @@
 <h1>Авторизація</h1>
 <p>Заповніть нижче всі поля для входу на сайт.</p>
 <body>
+    <form action="https://fom.in.ua/echo" method="get|post">
     <hr>
-    <div>
         <label for="Email"><b>Email</b></label>
-        <input type="text" placeholder="Введіть Email" name="Email" required>
-        <label for="Password"><b>Пароль</b></label>
-        <input type="text" placeholder="Введіть пароль" name="Password" required>
+            <input type="text" placeholder="Введіть Email" name="Email" required>
+        <label for="password"><b>Пароль</b></label>
+            <input type="password" autocomplete="off" placeholder="Введіть пароль" name="Password" required>
         <label>
-            <input type="checkbox" checked="checked" name="subscribe">Запам'ятати пароль
+            <input type="checkbox" checked="checked" name="passwordcheck">Запам'ятати пароль
         </label>
-    </div>
     <hr>
-        <input type="submit" value="Увійти">
-    </div>
+    <input type="submit" value="Увійти">
     </form>
 </body>
 </html>
