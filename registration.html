@@ -9,17 +9,19 @@
 <h1>Реєстрація</h1>
 <p>Будь ласка, заповніть нижче всі поля для реєстрації.</p>
 <body>
-    <form action="https://fom.in.ua/echo" method="get|post">
+    <form action="https://fom.in.ua/echo" method="get">
     <hr>
-        <label for="Email"><b>Email</b></label>
+        <label for="Email"><b>Email</b>
             <input type="email" id="email" name="email" placeholder="Введіть Email" required>
-        <label for="password1"><b>Пароль</b></label>
-            <input type="password" minlenght="8" maxlength="12" size="24" placeholder="Від 8 до 12 символів" required>
-        <label for="password2"><b>Підтвердження пароля</b></label>
-            <input type="password" minlenght="8"  maxlength="12" size="24" placeholder="Повторіть пароль" required>
+        </label>
+        <label for="password1"><b>Пароль</b>
+            <input type="password" name="password" autocomplete="off" minlenght="8" maxlength="12" size="24" placeholder="Від 8 до 12 символів" required>
+        </label>
+        <label for="password2"><b>Підтвердження пароля</b>
+            <input type="password" name="passwordCheck" autocomplete="off" minlenght="8"  maxlength="12" size="24" placeholder="Повторіть пароль" required>
+        </label>
     <hr>
     <input type="submit" value="Зареєструватись">
-
-    </form>
+</form>
 </body>
 </html>
